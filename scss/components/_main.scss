@@ -14,7 +14,9 @@ html {
 
 *, :before, :after{ box-sizing: border-box; }
 
-
+body{
+  background-color: $background;
+}
 
 // REUSABLE STYLES
 .unstyled{ list-style: none; padding: 0; margin: 0;
@@ -41,7 +43,7 @@ html {
   a{
     display: block;
     padding: 1em 0;
-    color: #000000;
+    color: $text-color;
     text-decoration: none;
     transition: .15s linear color;
     
