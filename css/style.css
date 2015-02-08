@@ -29,105 +29,105 @@ html {
 *, :before, :after {
   box-sizing: border-box; }
 
-/* line 26, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+/* line 20, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .unstyled {
   list-style: none;
   padding: 0;
   margin: 0; }
-  /* line 27, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  /* line 21, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
   .unstyled a {
     text-decoration: none; }
 
-/* line 29, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+/* line 23, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .list-inline {
   overflow: hidden; }
-  /* line 30, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  /* line 24, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
   .list-inline li {
     float: left; }
 
-/* line 34, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+/* line 28, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .header {
   position: fixed;
   left: 0;
   top: 0;
   bottom: 0;
   width: 17.5em;
-  background: #35302D; }
+  background: #009999; }
 
-/* line 41, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+/* line 35, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .logo {
   text-transform: lowercase;
-  font: 300 2em 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font: 300 2em "Droid Serif", serif;
   text-align: center;
   padding: 0;
   margin: 0; }
-  /* line 47, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  /* line 41, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
   .logo a {
     display: block;
     padding: 1em 0;
-    color: #DFDBD9;
+    color: #000000;
     text-decoration: none;
     transition: 0.15s linear color; }
-    /* line 54, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+    /* line 48, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
     .logo a:hover {
       color: #fff; }
-      /* line 56, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+      /* line 50, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
       .logo a:hover span {
-        color: #DF4500; }
-  /* line 60, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+        color: #FFCC66; }
+  /* line 54, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
   .logo span {
     font-weight: 700;
     transition: 0.15s linear color; }
 
-/* line 69, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+/* line 63, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .main-nav ul {
-  border-top: solid 1px #3C3735; }
-/* line 73, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  border-top: solid 1px #33ADAD; }
+/* line 67, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .main-nav li {
-  border-bottom: solid 1px #3C3735; }
-/* line 77, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  border-bottom: solid 1px #33ADAD; }
+/* line 71, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .main-nav a {
   padding: 1.1em 0;
-  color: #DFDBD9;
-  font: 400 1.125em 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  color: #E6E6E6;
+  font: 400 1.125em "Droid Serif", serif;
   text-align: center;
   text-transform: lowercase; }
-  /* line 86, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  /* line 80, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
   .main-nav a:hover {
-    color: #fff; }
+    color: #ffffff; }
 
-/* line 93, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+/* line 87, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .social-links {
-  border-bottom: solid 1px #3C3735; }
-  /* line 96, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  border-bottom: solid 1px #33ADAD; }
+  /* line 90, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
   .social-links li {
     width: 25%;
-    border-left: solid 1px #3C3735; }
-    /* line 99, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+    border-left: solid 1px #33ADAD; }
+    /* line 93, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
     .social-links li:first-child {
       border: none; }
-  /* line 102, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  /* line 96, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
   .social-links a {
     display: block;
     height: 5.5em;
     text-align: center;
-    color: #3C3735;
-    font: 0.75em/5.5em 'Source Sans Pro', Helvetica, Arial, sans-serif; }
-    /* line 108, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+    color: #33ADAD;
+    font: 0.75em/5.5em "Droid Serif", serif; }
+    /* line 102, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
     .social-links a:hover {
-      color: #DFDBD9; }
+      color: #ffffff; }
 
-/* line 117, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+/* line 111, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .list-hover-slide li {
   position: relative;
   overflow: hidden; }
-/* line 122, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+/* line 116, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
 .list-hover-slide a {
   display: block;
   position: relative;
   z-index: 1;
   transition: 0.35s ease color; }
-  /* line 128, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  /* line 122, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
   .list-hover-slide a:before {
     content: '';
     display: block;
@@ -137,9 +137,9 @@ html {
     top: 0;
     width: 100%;
     height: 100%;
-    border-right: solid 5px #DF4500;
-    background: #3C3735;
+    border-right: solid 5px #FFCC66;
+    background: #33ADAD;
     transition: 0.35s ease left; }
-  /* line 143, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
+  /* line 137, /Users/agranieri/Documents/School/Graphic Design/Year 3/Year 3 Semester 2/Web Development V/exercises/exercise-4-code-pen/scss/components/main */
   .list-hover-slide a.is-current:before, .list-hover-slide a:hover:before {
     left: 0; }
